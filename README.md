@@ -1,6 +1,6 @@
 # Multimodal Model-Agnostic Meta-Learning for Few-shot Classification
 
-This project is an implementation of [**Multimodal Model-Agnostic Meta-Learning via Task-Aware Modulation**](https://arxiv.org/abs/1910.13616), which is published in [**NeurIPS 2019**](https://neurips.cc/Conferences/2019/). Please contact [Shao-Hua Sun](http://shaohua0116.github.io/) for any questions.
+This project is an implementation of [**Multimodal Model-Agnostic Meta-Learning via Task-Aware Modulation**](https://arxiv.org/abs/1910.13616), which is published in [**NeurIPS 2019**](https://neurips.cc/Conferences/2019/). Please visit our [project page](https://vuoristo.github.io/MMAML/) for more information and contact [Shao-Hua Sun](http://shaohua0116.github.io/) for any questions.
 
 Model-agnostic meta-learners aim to acquire meta-prior parameters from a distribution of tasks and adapt to novel tasks with few gradient updates. Yet, seeking a common initialization shared across the entire task distribution substantially limits the diversity of the task distributions that they are able to learn from. We propose a multimodal MAML (MMAML) framework, which is able to modulate its meta-learned prior according to the identified mode, allowing more efficient fast adaptation. An illustration of the proposed framework is as follows.
 
@@ -184,5 +184,5 @@ If you find this useful, please cite
 }
 ```
 
-## Author
-[Shao-Hua Sun](http://shaohua0116.github.io/)
+## Authors
+[Shao-Hua Sun](http://shaohua0116.github.io/), [Risto Vuorio](https://vuoristo.github.io/), [Hexiang Hu](http://hexianghu.com/)
