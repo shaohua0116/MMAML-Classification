@@ -23,6 +23,9 @@ python download.py --dataset aircraft bird cifar miniimagenet
 ```
 
 ## Getting started
+
+Please first install the following prerequisites: `wget`, `unzip`.
+
 To avoid any conflict with your existing Python setup, and to keep this project self-contained, it is suggested to work in a virtual environment with [`virtualenv`](http://docs.python-guide.org/en/latest/dev/virtualenvs/). To install `virtualenv`:
 ```
 pip install --upgrade virtualenv
